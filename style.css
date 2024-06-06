@@ -1,0 +1,146 @@
+
+
+h1 {
+  color: #507199;
+  font-size: 45px;
+  background-color: #e1eaf5; 
+  height: 250px; /* Added missing semicolon */
+  margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            font-family: 'Itim', cursive;
+}
+
+h2{
+  font-family: 'Itim', cursive;
+    font-size: 35px;
+    color: #507199;
+}
+h3{
+  font-family: 'Itim', cursive;
+    font-size: 30px;
+    color: #507199;
+}
+h4{
+  font-family: 'Itim', cursive;
+    font-size: large;
+}
+hr{
+  font-family: 'Itim', cursive;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: black;
+    border-width: 5px;
+    width: 5%;
+    }
+body{
+  font-family: 'Itim', cursive;
+  font-size: 25px;
+    background-color: #F9F7F7;
+}
+/* ใส่boxให้ตัวเว็บ *คือทำทั้งเอกสาร */
+*{
+    box-sizing: border-box;
+}
+
+header{
+  font-family: 'Itim', cursive;
+    background-color: #E78895;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: #FBF9F1;
+}
+
+nav{
+  font-family: 'Itim', cursive;
+    float: left;
+    /* ปรับความกว้าง */
+    width: 15%;
+    /* ความสูงลิส */
+    height: 10500px;
+    background-color: #FFE4C9;
+    padding: 10px;
+    color: #0C2D57;
+}
+/* จัดนาฟในลิส */
+nav ul{
+    /* ไม่ใส่จุดข้างหน้า */
+    list-style-type: none;
+    /* ชิดขอบซ้าย */
+    padding: 0;
+    color: #0C2D57;
+}
+/* จัดข้อมูลในขอบข้างๆ */
+article{
+    height: 2500px;
+    /* จัดข้อความข้างล่าง */
+    text-align: left;
+    color: #e1eaf5;
+}
+
+footer{
+  font-family: 'Itim', cursive;
+    background-color: #e1eaf5;
+    padding: 10px;
+    text-align: center;
+    color: #090909;
+}
+/* responedsive layout : คงขนาดไว้เวลาเปิดในมือถือ */
+@media(max-width: 600px){
+    nav,article{
+        width: 100%;
+        height: auto;
+    }
+}
+head {
+  font-family: 'Itim', cursive;
+    background-color: rgb(140, 198, 216);
+  }
+
+  /* CSS สำหรับข้อความและช่องค้นหา
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .search {
+    text-align: right;
+  }  */
+
+  .menu-bar {
+    font-family: 'Itim', cursive;
+    background-color: hsl(0, 21%, 94%);
+    overflow: hidden;
+  }
+  
+  /* สไตล์ของลิสต์เมนู */
+  .menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-bar ul li {
+    float: left;
+  }
+  
+  .menu-bar ul li a {
+    display: block;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* เพิ่มสีพื้นหลังเมื่อเม้าส์ hover ที่เมนู */
+  .menu-bar ul li a:hover {
+    background-color: #e1eaf5;
+  }
+  
+  /* ขนาดไอคอน */
+  .menu-bar ul li a i {
+    font-size: 20px;
+  }
+
+  
